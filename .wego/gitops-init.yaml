@@ -17,7 +17,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./.wego/targets
+  path: ./.wego/targets/dev
   prune: true
   sourceRef:
     kind: GitRepository
